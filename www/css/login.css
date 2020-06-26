@@ -1,0 +1,33 @@
+/* This is a CSS file */
+
+#btnreturn{
+margin-left: 25px;
+width: 35px;
+height: 35px;
+margin-top: 20px;
+}
+
+#tiltelogin{
+  
+width: 148px;
+height: 40px;
+left: 16px;
+font-size: 45px;
+
+font-family: 'Comfortaa', cursive;
+}
+
+#inlogin, #insenha{
+  width: 325px;
+  height: 52px;
+  border: 3px solid  black;
+}
+
+#buttonlogin{
+  width: 325px;
+height: 52px;
+top: 30px;
+border-radius: 8px;
+background-color: black;
+
+}

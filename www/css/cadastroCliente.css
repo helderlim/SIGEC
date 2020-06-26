@@ -1,0 +1,99 @@
+
+
+body{
+  background-color: black !important;
+}
+
+p{
+   font-family: 'Montserrat', sans-serif;
+  font-size: 45px;
+  color: white;
+  padding-left: 64px;
+  padding-top: 2px;
+}
+h5{
+   font-family: 'Montserrat', sans-serif;
+  font-size: 35px !important;
+  color: white !important;
+  padding-left: 120px;
+ 
+}
+
+label{
+   font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  color: white;
+  border: none;
+
+}
+
+#lablelExtend{
+height: 45px;
+width: 330px;
+border-radius: 5px;
+border: none;
+}
+#labelTipo{
+  height: 45px;
+  width: 145px;
+  border-radius: 5px;
+  border: none;
+}
+
+#labelcpf{
+  height: 45px;
+  width: 188px;
+  border-radius: 5px;
+  border: none;
+}
+#labelemail{
+  height: 45px;
+  width: 270px;
+  border-radius: 5px;
+  border: none;
+}
+
+#img{
+   height: 45px;
+  width: 45px;
+  margin-left: 10px;
+}
+
+
+#enderecotitle{
+   font-family: 'Montserrat', sans-serif;
+  font-size: 30px !important;
+  color: white !important;
+  padding-left: 85px;
+}
+
+#dadostitle{
+   font-family: 'Montserrat', sans-serif;
+  font-size: 30px !important;
+  color: white !important;
+  padding-left: 70px;
+}
+
+#buttonlogin{
+  width: 150px;
+height: 60px;
+top: 30px;
+border-radius: 8px;
+background-color:white;
+font-size: 18px;
+ font-family: 'Roboto', sans-serif ;
+ border: none;
+ margin-left: 12px;
+}
+
+#buttonsalvar{
+   width: 150px;
+height: 60px;
+top: 30px;
+border-radius: 8px;
+background-color:white;
+font-size: 18px;
+ font-family: 'Roboto', sans-serif ;
+ border: none;
+ margin-left: 40px;
+}

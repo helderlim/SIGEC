@@ -1,0 +1,203 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <link rel="stylesheet" href="components/loader.css">
+     <link rel="stylesheet" href="../css/cadastroCliente.css">
+    <script src="components/loader.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script>
+       /*fazer select dos estados pais e municipio*/ 
+    </script>
+</head>
+<body>
+   <div class="container-fluid">
+     <div class="row">
+       <div class="col-md-12">
+         <p>Cadastro</p>      
+       </div>
+     </div>
+     <div class="row">
+       <div class="col-md-12">
+         <h5>Cliente</h5>
+         
+       </div>
+     </div>
+     <br><br>
+  <form>
+     <div class="row">
+       <div class="col-md-12">
+         <label> Nome Completo</label>
+         <input type="text"id="lablelExtend" placeholder="Ex: João da Silva">
+       </div>
+     </div><br>
+
+     <div class="row">
+       <div class="col-5">
+         <label> Tipo</label><br>
+         <input type="text"id="labelTipo" placeholder="Ex: Fisica">
+       </div>
+
+       <div class="col-4">
+         <label> CPF/CNPJ</label><br>
+         <input type="text"id="labelcpf" placeholder="Ex: Fisica">
+       </div>
+     </div><br>
+
+     <div class="row">
+       <div class="col-5">
+         <label> RG</label><br>
+         <input type="text"id="labelTipo" placeholder="Ex: Fisica">
+       </div>
+
+       <div class="col-4">
+         <label> Emissor</label><br>
+         <input type="text"id="labelcpf" placeholder="Ex: Fisica">
+       </div>
+     </div><br>
+
+    <div class="row">
+       <div class="col-12">
+         <label> E-Mail
+           </label><br>
+         <input type="text"id="labelemail" placeholder="joa@email.com">
+         <span><img src="../img/icon/plus.png" id="img"> </span>
+       </div>
+     </div><br>
+
+      <div class="row">
+       <div class="col-12">
+         <label> Telefone
+           </label><br>
+         <input type="text"id="labelemail" placeholder="(00)0 000-000">
+         <span><img src="../img/icon/plus.png" id="img"> </span>
+       </div>
+     </div><br>
+     
+     <div class="row">
+       <div class="col-12">
+         <label> Data de Nascimento
+           </label><br>
+         <input type="date"  id="lablelExtend" >   
+       </div>
+     </div><br><br>
+
+     <div class="row">
+        <div class="col-md-12">
+         <h4 id="enderecotitle">Endereço</h4>     
+       </div>
+     </div><br><br>
+     
+
+    <div class="row">
+       <div class="col-12">
+         <label> Estado
+           </label><br>
+         <select id="lablelExtend" >
+           <option value="Sao Paulo" selected>São Paulo</option>
+           <option value="Sao Paulo">Rio de Janeiro</option>
+           <option value="Sao Paulo">Mato Grosso</option>
+           
+         </select>
+       </div>
+     </div><br>
+
+     <div class="row">
+       <div class="col-5">
+         <label> Cep</label><br>
+         <input type="text"id="labelTipo" placeholder="0000">
+       </div>
+
+       <div class="col-4">
+         <label> Logradouro</label><br>
+         <input type="text"id="labelcpf" placeholder="Rua: Santo antonio">
+       </div>
+     </div><br>
+
+
+    <div class="row">
+       <div class="col-5">
+         <label> Numero</label><br>
+         <input type="number"id="labelTipo" placeholder="105">
+       </div>
+
+       <div class="col-4">
+         <label> Municipio</label><br>
+         <input type="text"id="labelcpf" placeholder="Itanhaém" >
+       </div>
+     </div>
+
+
+      <div class="row">
+       <div class="col-12">
+         <label> Tipo de Endereço
+           </label><br>
+         <select id="lablelExtend" >
+           <option value="Sao Paulo" selected>apartamento</option>
+           <option value="Sao Paulo">Comercial</option>
+           <option value="Sao Paulo">Residencial</option>
+           
+         </select>
+       </div>
+     </div><br><br>
+
+     <div class="row">
+        <div class="col-md-12">
+         <h4 id="dadostitle">Outros Dados</h4>     
+       </div>
+     </div><br><br>
+
+     <div class="row">
+       <div class="col-5">
+         <label>Civil</label><br>
+         <input type="text"id="labelTipo" placeholder="Solteiro">
+       </div>
+
+       <div class="col-4">
+         <label> Profissão</label><br>
+         <input type="text"id="labelcpf" placeholder="Gerente" >
+       </div>
+     </div><br>
+
+      <div class="row">
+       <div class="col-5">
+         <label>Origem</label><br>
+         <input type="text"id="labelTipo" placeholder="Brasil">
+       </div>
+
+       <div class="col-4">
+         <label> Escolaridade</label><br>
+         <input type="text"id="labelcpf" placeholder="Medio" >
+       </div>
+     </div><br><br>
+
+
+    <div class="row">
+       
+         <button type="button" id="buttonlogin" class="btn btn-light"  onclick="window.location.href = 'cadastro.html'">Voltar</button>   
+     
+    
+    
+        
+         <button type="button" id="buttonsalvar" class="btn btn-light"  onclick="window.location.href = 'cadastro.html'">Salvar</button>   
+      
+     </div><br><br>
+     
+
+  </form>
+
+
+   </div>
+</body>
+</html>

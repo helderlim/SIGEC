@@ -1,0 +1,69 @@
+/* This is a CSS file */
+
+#imagemperfil{
+ background-color: #ddd;
+  border-radius: 100%;
+  height: 180px;
+  object-fit: cover;
+  width: 180px;  
+  
+  
+}
+
+#imgimg{
+  top: 25px;
+  left: 75px;
+}
+
+#nameuser{
+  font-family: 'Comfortaa', cursive;
+  font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 40px;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
+
+}
+
+#estado{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  align-items: center;
+  text-align: center;
+ letter-spacing: -0.015em;
+ 
+}
+
+#positionestado{
+  left: 108px;
+  top: 5px;
+}
+
+.btnsair{
+  width: 200px;
+height: 60px;
+
+border-radius: 8px;
+background-color: white;
+font-size: 18px;
+ font-family: 'Roboto', sans-serif;
+border: 2px solid black;
+
+}
+
+#dados{
+  font-size: 29px;
+  top: 42px;
+
+  
+}
+
+
+
+#spanuser{
+  width: 25px;
+  height: 25px;
+}
+

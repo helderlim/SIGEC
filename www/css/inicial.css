@@ -1,0 +1,71 @@
+/* This is a CSS file */
+
+
+
+#logoinicial{
+ position: absolute;
+width: 88px;
+height: 85px;
+left: 50px;
+top: 73px;
+}
+
+#titlelog{
+   font-family: 'Montserrat', sans-serif;
+  font-size: 45px;
+  color: white;
+  padding-left: 129px;
+  padding-top: 73px;
+}
+
+.btncadastro{
+ width: 325px;
+height: 60px;
+top: 30px;
+border-radius: 8px;
+background-color: white;
+font-size: 18px;
+ font-family: 'Roboto', sans-serif;
+ border: none;
+
+}
+
+#navbar{
+  position: fixed;
+width: 375px;
+height: 83px;
+left: 0px;
+bottom: 0px;
+
+}
+
+#ultima{
+  width: 325px;
+height: 60px;
+top: 30px;
+border-radius: 8px;
+background-color: white;
+font-size: 18px;
+ font-family: 'Roboto', sans-serif;
+ border: none;
+
+}
+
+.navfixa{
+  margin-left: 9px;
+  width: 30px;
+  height: 30px;
+}
+#return{
+  margin-right: 25px;
+}
+
+label{
+ font-family: 'Montserrat', sans-serif;
+
+
+}
+
+#rela{
+  margin-left: 20px;
+}

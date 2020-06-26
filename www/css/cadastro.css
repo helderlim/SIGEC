@@ -1,0 +1,32 @@
+/* This is a CSS file */
+
+
+
+#title{
+   font-family: 'Montserrat', sans-serif;
+  font-size: 45px;
+  color: white;
+  padding-left: 55px;
+  padding-top: 50px;
+}
+
+.btncadastro{
+ width: 325px;
+height: 60px;
+top: 30px;
+border-radius: 8px;
+background-color: white;
+font-size: 18px;
+ font-family: 'Roboto', sans-serif;
+ 
+margin-left: 18px;
+opacity: 90%;
+border: 2px solid black;
+}
+
+#btnreturn{
+  margin-left: 287px;
+width: 35px;
+height: 35px;
+margin-top: 20px;
+}

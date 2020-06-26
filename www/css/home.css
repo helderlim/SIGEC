@@ -1,0 +1,39 @@
+/* This is a CSS file */
+/*logo*/ 
+#logo{
+  width: 228px;
+  height: 238px;
+  
+  
+ 
+}
+/*linha da logo*/
+#linelogo{
+  
+  padding-top: 85px;
+  margin-left: 18px;
+}
+/*titulo SIGEC*/
+#title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 80px;
+}
+
+/*ROW do titulo*/
+#linetitle{
+  margin-left: 25px;
+}
+
+#botao{
+ 
+position: absolute;
+width: 167px;
+height: 52px;
+left: 80px;
+top: 30px;
+border-radius: 5px;
+border-color: black;
+
+
+
+}
